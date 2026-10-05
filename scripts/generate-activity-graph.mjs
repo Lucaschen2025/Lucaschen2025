@@ -1,7 +1,7 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
-const user = process.env.ACTIVITY_GRAPH_USER || process.env.GITHUB_REPOSITORY_OWNER || "Iamliuxiaozhen";
+const user = process.env.ACTIVITY_GRAPH_USER || process.env.GITHUB_REPOSITORY_OWNER || "Lucaschen2025";
 const output = process.env.ACTIVITY_GRAPH_OUTPUT || "profile/activity-graph.svg";
 const token = process.env.GITHUB_TOKEN;
 
